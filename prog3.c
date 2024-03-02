@@ -45,7 +45,6 @@ int main (int argc, char** argv){
 
     foo = caller(x);
     printf("caller: x %ld, foo %ld\n", x, foo);
-
     printf("before my_args a1 %d a2 %ld a3 %d a4 %ld a5 %ld a6 %ld a7 %ld a8 %ld\n",a1,a2,a3,a4,a5,a6,a7,a8);
     foo = my_args(&a1,a2,&a3,a4,a5,a6,a7,a8);
     printf("before my_args a1 %d a2 %ld a3 %d a4 %ld a5 %ld a6 %ld a7 %ld a8 %ld foo %ld\n",a1,a2,a3,a4,a5,a6,a7,a8,foo);
